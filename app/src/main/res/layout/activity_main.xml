@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:background="#0033ff"
+                android:text="STIMIK WIDYA UTAMA"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="center"
+                android:background="#0033ff"
+                android:text="Daftar Mahasiswa"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <!-- Data mahasiswa -->
+            <TextView
+                android:id="@+id/student1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ff6666"
+                android:text="Nama: Mahasiswa 1                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student2"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#0099ff"
+                android:text="Nama: Mahasiswa 2                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student3"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ccffcc"
+                android:text="Nama: Mahasiswa 3                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student4"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ff6666"
+                android:text="Nama: Mahasiswa 4                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#0099ff"
+                android:text="Nama: Mahasiswa 5                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student6"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ccffcc"
+                android:text="Nama: Fatkhul Latif                    NIM: SSI202203159" />
+            <TextView
+                android:id="@+id/student7"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ff6666"
+                android:text="Nama: Mahasiswa 7                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student8"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#0099ff"
+                android:text="Nama: Mahasiswa 8                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student9"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ccffcc"
+                android:text="Nama: Mahasiswa 9                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student10"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#ff6666"
+                android:text="Nama: Mahasiswa 10                     NIM: 1234567890" />
+            <TextView
+                android:id="@+id/student11"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:background="#0099ff"
+                android:text="Nama: Mahasiswa 11                     NIM: 1234567890" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
